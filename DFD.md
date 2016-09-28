@@ -9,10 +9,11 @@ Use Case: Manager requesting information for a collection of project packages
 -	Title: Determine License and Vulnerability Information for Multiple Packages
 
 - Primary Actor: Manager
+
 -	Goal in Context: The manager is able to determine license and vulnerability information from provided project information 
 
 -	Stakeholders:
-o	Manager: To receive clear and relevant project information
+o Manager: To receive clear and relevant project information
 o	Software Developer: To provide the relevant file/package level information (license and vulnerability information)
 
 -	Preconditions:
