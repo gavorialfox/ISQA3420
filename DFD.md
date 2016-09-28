@@ -1,43 +1,23 @@
 This is the DFD file.
 
 
-image
-![alt text] (https://cloud.githubusercontent.com/assets/21348764/18294205/2ef8c2ac-745d-11e6-98aa-57909156b522.jpg)
+Mock Use Case for Managers, Assignment #1
+9/27/2016
 
-This is the Screenshot from Wednesday's Lecture
-![screenshot] (https://cloud.githubusercontent.com/assets/21348764/18692196/391fa384-7f5e-11e6-88f9-d9dac6d5fa3a.png)
+Use Case: Manager requesting information for a collection of project packages
+-	Title: Determine License and Vulnerability Information for Multiple Packages
+-	Primary Actor: Manager
+-	Goal in Context: The manager is able to determine license and vulnerability information from provided project information 
+-	Stakeholders:
+o	Manager: To receive clear and relevant project information
+o	Software Developer: To provide the relevant file/package level information (license and vulnerability information)
+-	Preconditions:
+o	The developer will need to submit relevant file/package information
+o	Relevant package information will be processed, and stored in the OSS Software Package Datastore
+-	Main Success Scenario: Manager is able to receive accurate license vulnerability information for the requested software project packages
+-	Failed End Conditions: 
+o	Manager does not receive any information for the requested packages
+o	Manager receives irrelevant information for the requested packages
+o	Manager receives inaccurate or invalid license and vulnerability information for the requested packages
+-	Trigger: Manager submits project information request, to which license and vulnerability information is provided
 
-
-Outline for Professor Germonprez
-Here are the rules:
-
-1. List of entities:
-
-Developer (Entity)
-
-Manager (Entity)
-
-2. List of Processes:
-
-a.) Management of Software Packages
-(this can be broken down into three other processes)
-
-- Verify for Open Source Software Components
-
-- Scan for Licenses
-
-- Scan Software for Published Software Vulnerabilities
-
-3. List of Data Repositories
-
-- OSS Software Package Datastore
-
-4. List of Data Flow arrows (only using verbs HERE to help myself understand where & which direction the processes are going, cannot allow on the DFD)
-
--Developer submits "software package" to the process of Managing Software Packages.
-
--The "OSS package" gets verified through the three processes of checking for OSS Components, Licensing, and Vulnerabilites. Each process will change the DF line name following verification.
-
--The "verified OSS data" (three separate DFs for each package from each process) gets stored into the data repository called "OSS Package Datastore."
--Developer/Manager submits "project request"
- @gavorialfox
