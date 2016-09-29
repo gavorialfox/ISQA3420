@@ -20,7 +20,7 @@ o	Software Developer: To provide the relevant file/package level information (li
 o	The developer will need to submit relevant file/package information
 o	Relevant package information will be processed, and stored in the OSS Software Package Datastore
 
--	Main Success Scenario: Manager is able to receive accurate license vulnerability information for the requested software project packages
+-	Main Success Scenario: Manager is able to receive accurate license and vulnerability information for the requested software project packages
 
 -	Failed End Conditions: 
 o	Manager does not receive any information for the requested packages
@@ -29,4 +29,4 @@ o	Manager receives inaccurate or invalid license and vulnerability information f
 
 -	Trigger: Manager submits project information request, to which license and vulnerability information is provided
 
-(forgive the random 'o's, this was done via Word + copy&paste, I have everything bulleted. 
+(forgive the random 'o's, this was done via Word + copy&paste, I have everything bulleted. !! 
