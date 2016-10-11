@@ -1,4 +1,4 @@
--	Title: Determine License and Vulnerability Information for Multiple Packages
+-	Title: Manager Determines License and Vulnerability Information for Multiple Packages
 -	Primary Actor: Manager
 -	Goal in Context: The manager is able to determine license and vulnerability information from provided project information 
 -	Stakeholders:
