@@ -4,9 +4,7 @@
 -	Completed OSS Project Results: 
   - The finalized OSS Project information after it has been pulled from the OSS data store, and ran against corporate policy information in the vulnerability policy data store for violations. 
 -	Developer: 
-  - The software developer responsible for the creation of the software packages
--	Project Request: 
-  - The submitted request by either the manager or the developer, primed for verification of OSS components, licensing and vulnerabilities. 
+  - The software developer responsible for the creation of the software package.
 -	Manager: 
   - The corporate manager that is responsible for requesting multiple software packages (via the Project Requests) for testing against software vulnerability policies, as well as modifying or submitting new policy documents to be test against the Software Package License and Vulnerability Policy Data Store.
 -	Modified/Submitted Policy Document: 
@@ -17,6 +15,8 @@
   - A database of known published vulnerabilities.
 -	OSS Policy Documentation: 
   - The process of verifying OSS software project requests against policy documents, as well as having stored policy documents in the system from the corporate manager. This information gets sent to the Software Package License and Vulnerability Data Store, and returned to the requester, either the manager or the developer. 
+-   Project Request: 
+  - The submitted request by either the manager or the developer, primed for verification of OSS components, licensing and vulnerabilities. 
 -	Review Software Package for OSS Components: 
   - The process of verifying OSS packages, verifying their components & licensing from the NIST Vulnerability Hub, and both storing the results into the OSS Software Package License and Vulnerability Data Store, as well as returning the software package results to either the manager or the developer. 
 -	Scan for License or Vulnerability Violations: 
