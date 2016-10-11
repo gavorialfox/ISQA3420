@@ -1,4 +1,3 @@
-Use Case: Manager requesting information for a collection of project packages
 -	Title: Determine License and Vulnerability Information for Multiple Packages
 -	Primary Actor: Manager
 -	Goal in Context: The manager is able to determine license and vulnerability information from provided project information 
