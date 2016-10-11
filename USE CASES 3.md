@@ -1,1 +1,18 @@
+-	Title: Manager Submits a Policy Document, or Updates an Existing Policy Document.
+-	Primary Actor: Manager.
+-	Goal in Context: The manager is successfully able to either submit a new open source policy document, or update/modify an existing open source policy document in the system.
+-	Stakeholder(s):
+  - Manager: To obtain the relevant file/package level information (license and vulnerability information).
+-	Preconditions:
+  - If creating a document, the manager must have access to the OSS License and Vulnerability Policy data store for knowledge of what is considered violation of current license or vulnerability requirements.
+  - If modifying, policy documents must already exist in the system.
+-	Main Success Scenario: 
+  - Policy documents are successfully created or modified in the system.
+  - These documents are applied to future software projects that are in need of verification of violation of license or vulnerability information.
+-	Failed End Conditions:
+  - The precondition was not met; no access to the OSS License and Vulnerability data store. 
+  - Manager was unable to submit a new policy document.
+  - Manager was unable to modify or update an existing policy document.
+  - The policy document is inaccurate; does not follow current license or vulnerability requirements for OSS software packages. 
+-	Trigger: The manager either submits a new policy document, or modifies an existing one, and the policy document is verified in the Software Package License and Vulnerability Data Store.
 
