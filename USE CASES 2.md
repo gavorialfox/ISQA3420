@@ -1,1 +1,17 @@
+-	Title: Developer Submits OSS Package to Verify Information of OSS Components, Licenses, and Vulnerabilities.
+-	Primary Actor: Developer.
+-	Goal in Context: The developer is able to determine license and vulnerability information from provided software package information in the data store. 
+-	Stakeholder(s):
+  - Software Developer: To obtain the relevant file/package level information (license and vulnerability information).
+-	Preconditions:
+  - The developer will need to submit relevant file/package information.
+-	Main Success Scenario: 
+  - Developer is able to receive accurate license vulnerability information for the requested software package from the data store.
+  - The requested package information is stored in the OSS Software Package data store.
+-	Failed End Conditions:
+  - The precondition was not met; no OSS software package was submitted. 
+  - Developer does not receive any information for the requested package.
+  - Developer receives irrelevant information for the requested package.
+  - Developer receives inaccurate or invalid license and vulnerability information for the requested package.
+-	Trigger: The developer submits the OSS package information request, to which license and vulnerability information is provided.
 
